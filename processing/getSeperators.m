@@ -11,9 +11,10 @@ function [ seperator ] = getSeperators( blured_image )
 
     % find the first 0.9
     firstLine = round(0.05*height);
-    for i=1:round(0.3*height)
+    for i=firstLine:round(0.3*height)
         if tt(i)>0.9
             firstLine=i;
+            break;
         end
     end
 
