@@ -9,8 +9,8 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
-- script: npm install -g markdown-styles
-  displayName: tools
+- script: sudo npm install -g markdown-styles
+  displayName: Install tools
 - script: make
   displayName: Build help pages
 - task: DownloadSecureFile@1
