@@ -2,7 +2,7 @@
 all: clean markdown images
 
 markdown: 
-	pushd help && \
+	cd help && \
 	generate-md --layout mixu-bootstrap-2col --input index.md --output ../build
 
 clean:
