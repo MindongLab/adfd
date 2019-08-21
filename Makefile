@@ -1,5 +1,5 @@
 
-all: clean markdown images
+all: clean markdown images assets
 
 markdown: 
 	cd help && \
@@ -11,3 +11,6 @@ clean:
 
 images:
 	cp -rf ./help/images ./build/
+
+assets:
+	cp -rf ./help/assets ./build/

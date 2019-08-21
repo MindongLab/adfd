@@ -40,6 +40,10 @@
 
 ![](images/buc.png)
 
+#### 辅助脚本
+
+如果你不习惯用鼠标点击，更习惯使用键盘输入，可以使用 BanLamLang 提供的[辅助脚本](assets/helper_BanLamLang.zip)。
+
 ### 汉字的录入
 
 <a name="chinese">
